@@ -17,6 +17,6 @@ ADD run.sh /usr/local/bin
 RUN chmod +x /usr/local/bin/run.sh
 
 ENTRYPOINT ["/usr/local/bin/run.sh"]
-#ENTRYPOINT ["/usr/local/bin/ximantd", "-conf=/root/config.conf"]
+
 CMD []
-#CMD ["-masternodeprivkey="]
+
